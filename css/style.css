@@ -1,0 +1,192 @@
+
+/* TITLE SECTION  */
+
+.icon{
+    color: #0E8388;
+    margin-bottom: 1rem;
+    padding: 5%;
+}
+
+.navbar{
+    margin-bottom: 5%;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.icon:hover{
+    color: #0E8388;
+}
+
+#title{
+    background-color: #0E8388;
+    padding-bottom: 15%;
+}
+
+#title a {
+    text-decoration: none;
+    color: white;
+}
+
+#title h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #CBE4DE;
+    padding-top: 10%;
+}
+
+#title p{
+    color: #CBE4DE;
+}
+#title img{
+    margin: auto;
+    height: 25rem;
+    width: 30rem;
+}
+
+#title .btn:hover{
+    background-color: #2E4F4F;
+}
+
+/* ABOUT SECTION  */
+
+#about{ 
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+#about h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+#about h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+}
+
+#about p{
+    color: #8f8f8f;
+    margin: 0px;
+}
+
+#about .about-text {
+    margin-bottom: 5%;
+}
+
+
+/* PROJECTS SECTION */
+
+.projects-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.projects-button{
+    width: 100%;
+}
+
+#projects{
+    padding: 100px;
+    background-color: #0E8388;
+    text-align: center;
+}
+
+#projects h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.projectsHeading{
+    color:white;
+}
+.card-header{
+    background-color: #2E4F4F;
+    color: white;
+}
+
+#projects h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+/* EDUCATION SECTION  */
+
+#education{ 
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color:#0E8388;
+}
+
+#education h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+#education h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.5rem;
+}
+
+#education p{
+    color: white;
+    margin: 0px;
+}
+
+#education .education-text {
+    margin-bottom: 5%;
+}
+
+
+
+/* FOOTER SECTION  */
+
+.footer-icon{
+    margin: 0.5rem;
+}
+
+#footer{
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+    color: #0E8388;
+}
+
+#footer a:link{
+    text-decoration: none;
+}
+#footer p{
+    padding-top: 1rem;
+    font-family:'Montserrat-Black', sans-serif ;
+    font-weight: lighter;
+}
+
+/* For Screen Size Less than or equals to a tablet */
+
+@media (max-width:1028px ){
+
+    #title{
+        text-align: center;
+    }
+
+    #title img{
+        position: static;
+        transform: rotate(0deg);
+        padding-top: 5%;
+    }
+}
